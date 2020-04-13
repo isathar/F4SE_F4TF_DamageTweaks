@@ -1,0 +1,15 @@
+{
+	"sName": "Alien/Energy",
+	
+	"sDmgTypeID": "F4TweaksFramework.esm|7391",
+	"iCritTableID": 9,
+	
+	"sDmgResistAV": "Fallout4.esm|2EB",
+	"sDmgThresholdAV": "F4TweaksFramework.esm|80F",
+	"bUseArmorPen": true,
+	"fArmorDmgReductionExp": 0.3650,
+	"fArmorDmgFactor": 0.15,
+	
+	"sImmuneKW": "F4TweaksFramework.esm|832",
+	"sDmgOverrideKW": "F4TweaksFramework.esm|2ED8"
+}

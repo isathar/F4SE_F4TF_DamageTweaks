@@ -1,0 +1,66 @@
+{
+	"sName": "ActorTypeFeralGhoul", "sRequiredKW": "Fallout4.esm|6B4F2",
+	
+	"critTables": [
+		{"sName": "Physical", "iCritTypeID": 0, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25},
+			{"comment": "26-45 - Stagger - SaveAV: STR - SavedSpell: none",
+				"sSpellID": "F4TweaksFramework.esm|865", "iRollMax": 45,
+				"sSpellIDSaved": "none", "iSavingRollAV": 0, "iSavingRollMod": -4
+			},
+			{"comment": "46-70 - Minor Wound - SaveAV: END - SavedSpell: Stagger",
+				"sSpellID": "F4TweaksFramework.esm|870", "iRollMax": 70,
+				"sSpellIDSaved": "F4TweaksFramework.esm|865", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "71-85 - Major Wound - SaveAV: END - SavedSpell: Knock Back",
+				"sSpellID": "F4TweaksFramework.esm|2739", "iRollMax": 85,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C4", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "86-95 - Major Wound - SaveAV: END - SavedSpell: Knock Down",
+				"sSpellID": "F4TweaksFramework.esm|2739", "iRollMax": 95,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C6", "iSavingRollAV": 2, "iSavingRollMod": -2
+			},
+			{"comment": "96+ - Severed Artery - SaveAV: END - SavedSpell: Knock Out",
+				"sSpellID": "F4TweaksFramework.esm|1F6D", "iRollMax": 255,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C9", "iSavingRollAV": 2, "iSavingRollMod": 0
+			}
+		]},
+		
+		{"sName": "Energy", "iCritTypeID": 1, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Fire", "iCritTypeID": 2, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Electrical", "iCritTypeID": 3, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Cryo", "iCritTypeID": 4, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Poison", "iCritTypeID": 5, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Radiation", "comment": ["Immune"], "iCritTypeID": 6, "effects": [
+			{"comment": "0-255 - none", "iRollMax": 255}
+		]},
+		
+		{"sName": "Plasma", "iCritTypeID": 7, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Explosion", "iCritTypeID": 8, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Alien", "iCritTypeID": 9, "effects": [
+			{"comment": "0-25: none", "iRollMax": 25}
+		]}
+		
+	]
+}

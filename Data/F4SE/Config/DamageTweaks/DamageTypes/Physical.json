@@ -1,0 +1,15 @@
+{
+	"sName": "Physical",
+	
+	"sDmgTypeID": "Fallout4.esm|60A87",
+	"iCritTableID": 0,
+	
+	"sDmgResistAV": "Fallout4.esm|2E3",
+	"sDmgThresholdAV": "F4TweaksFramework.esm|814",
+	"bUseArmorPen": true,
+	"fArmorDmgReductionExp": 0.3650,
+	"fArmorDmgFactor": 0.15,
+	
+	"sImmuneKW": "F4TweaksFramework.esm|838",
+	"sDmgOverrideKW": "F4TweaksFramework.esm|1016"
+}

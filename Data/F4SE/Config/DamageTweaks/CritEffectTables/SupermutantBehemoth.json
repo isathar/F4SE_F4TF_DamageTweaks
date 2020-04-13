@@ -1,0 +1,46 @@
+{
+	"sName": "ActorTypeSuperMutantBehemoth", "sRequiredKW": "Fallout4.esm|14F6A5",
+	
+	"critTables": [
+		{"name": "Physical", "iCritTypeID": 0, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Energy", "iCritTypeID": 1, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Fire", "iCritTypeID": 2, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Electrical", "iCritTypeID": 3, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Cryo", "iCritTypeID": 4, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Poison", "iCritTypeID": 5, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Radiation", "comment": ["Immune"], "iCritTypeID": 6, "effects": [
+			{"comment": "0-255 - none", "iRollMax": 255}
+		]},
+		
+		{"sName": "Plasma", "iCritTypeID": 7, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Explosion", "iCritTypeID": 8, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Alien", "iCritTypeID": 9, "effects": [
+			{"comment": "0-25: none", "iRollMax": 25}
+		]}
+		
+	]
+}

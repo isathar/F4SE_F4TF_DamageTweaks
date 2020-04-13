@@ -1,0 +1,15 @@
+{
+	"sName": "Plasma",
+	
+	"sDmgTypeID": "F4TweaksFramework.esm|270F",
+	"iCritTableID": 7,
+	
+	"sDmgResistAV": "F4TweaksFramework.esm|807",
+	"sDmgThresholdAV": "F4TweaksFramework.esm|815",
+	"bUseArmorPen": true,
+	"fArmorDmgReductionExp": 0.3650,
+	"fArmorDmgFactor": 0.15,
+	
+	"sImmuneKW": "F4TweaksFramework.esm|839",
+	"sDmgOverrideKW": "F4TweaksFramework.esm|2ED9"
+}

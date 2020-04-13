@@ -1,0 +1,85 @@
+{
+	"sName": "ActorTypeAnimal", "sRequiredKW": "Fallout4.esm|13798",
+	
+	"critTables": [
+		{"sName": "Physical", "iCritTypeID": 0, "effects": [
+			{"comment": "0-25: none", "iRollMax": 25},
+			{"comment": "26-45: Stagger - SaveAV: STR - SavedSpell: none",
+				"sSpellID": "F4TweaksFramework.esm|865", "iRollMax": 45,
+				"sSpellIDSaved": "none", "iSavingRollAV": 0, "iSavingRollMod": -4
+			},
+			{"comment": "46-70: Minor Wound - SaveAV: END - SavedSpell: Stagger",
+				"sSpellID": "F4TweaksFramework.esm|870", "iRollMax": 70,
+				"sSpellIDSaved": "F4TweaksFramework.esm|865", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "71-85: Major Wound - SaveAV: END - SavedSpell: Knock Back",
+				"sSpellID": "F4TweaksFramework.esm|2739", "iRollMax": 85,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C4", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "86-95: Major Wound - SaveAV: END - SavedSpell: Knock Down",
+				"sSpellID": "F4TweaksFramework.esm|2739", "iRollMax": 95,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C6", "iSavingRollAV": 2, "iSavingRollMod": -2
+			},
+			{"comment": "96+: Severed Artery - SaveAV: END - SavedSpell: Knock Out",
+				"sSpellID": "F4TweaksFramework.esm|1F6D", "iRollMax": 255,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C9", "iSavingRollAV": 2, "iSavingRollMod": 0
+			}
+		]},
+		
+		{"sName": "Energy", "iCritTypeID": 1, "effects": [
+			{"comment": "0-25: none", "iRollMax": 25},
+			{"comment": "26-45: On Fire - SaveAV: END-3 - SavedSpell: none",
+				"sSpellID": "F4TweaksFramework.esm|2714", "iRollMax": 45,
+				"sSpellIDSaved": "none", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "46-70: On Fire II - SaveAV: END-3 - SavedSpell: On Fire",
+				"sSpellID": "F4TweaksFramework.esm|1F60", "iRollMax": 70,
+				"sSpellIDSaved": "F4TweaksFramework.esm|2714", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "71-85: Blind Frenzy - SaveAV: INT-3 - SavedSpell: Blindness",
+				"sSpellID": "F4TweaksFramework.esm|1F6A", "iRollMax": 85,
+				"sSpellIDSaved": "F4TweaksFramework.esm|850", "iSavingRollAV": 4, "iSavingRollMod": -3
+			},
+			{"comment": "86-95: Ionize - SaveAV: END-3 - SavedSpell: On Fire II",
+				"sSpellID": "F4TweaksFramework.esm|1012", "iRollMax": 95,
+				"sSpellIDSaved": "F4TweaksFramework.esm|1F60", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "96+: Vaporize Human - SaveAV: LCK - SavedSpell: On Fire Panic",
+				"sSpellID": "F4TweaksFramework.esm|2712", "iRollMax": 255,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C9", "iSavingRollAV": 6, "iSavingRollMod": 0
+			}
+		]},
+		
+		{"sName": "Fire", "iCritTypeID": 2, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Electrical", "iCritTypeID": 3, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Cryo", "iCritTypeID": 4, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Poison", "iCritTypeID": 5, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Radiation", "iCritTypeID": 6, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Plasma", "iCritTypeID": 7, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Explosion", "iCritTypeID": 8, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Alien", "iCritTypeID": 9, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]}
+	]
+}

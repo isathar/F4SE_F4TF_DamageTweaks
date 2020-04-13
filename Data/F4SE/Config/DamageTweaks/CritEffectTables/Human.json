@@ -1,0 +1,225 @@
+{
+	"sName": "ActorTypeHuman", "sRequiredKW": "Fallout4.esm|2CB72",
+	
+	"critTables": [
+		{"sName": "Physical", "iCritTypeID": 0, "effects": [
+			{"comment": "0-25: none", "iRollMax": 25},
+			{"comment": "26-45: Stagger - SaveAV: STR-3 - SavedSpell: none",
+				"sSpellID": "F4TweaksFramework.esm|865", "iRollMax": 45,
+				"sSpellIDSaved": "none", "iSavingRollAV": 0, "iSavingRollMod": -3
+			},
+			{"comment": "46-70: Disarm - SaveAV: AGI-3 - SavedSpell: Stagger",
+				"sSpellID": "F4TweaksFramework.esm|858", "iRollMax": 70,
+				"sSpellIDSaved": "F4TweaksFramework.esm|865", "iSavingRollAV": 5, "iSavingRollMod": -3
+			},
+			{"comment": "71-85: Major Wound - SaveAV: END-3 - SavedSpell: Minor Wound",
+				"sSpellID": "F4TweaksFramework.esm|2739", "iRollMax": 85,
+				"sSpellIDSaved": "F4TweaksFramework.esm|870", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "86-95: Knock Out - SaveAV: END-3 - SavedSpell: Knock Down",
+				"sSpellID": "F4TweaksFramework.esm|17C9", "iRollMax": 95,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C6", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "96+: Severed Artery - SaveAV: LCK - SavedSpell: Knock Out",
+				"sSpellID": "F4TweaksFramework.esm|1F6D", "iRollMax": 255,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C9", "iSavingRollAV": 6, "iSavingRollMod": 0
+			}
+		]},
+		
+		{"sName": "Energy", "iCritTypeID": 1, "effects": [
+			{"comment": "0-25: none", "iRollMax": 25},
+			{"comment": "26-45: On Fire - SaveAV: END-3 - SavedSpell: none",
+				"sSpellID": "F4TweaksFramework.esm|2714", "iRollMax": 45,
+				"sSpellIDSaved": "none", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "46-70: On Fire II - SaveAV: END-3 - SavedSpell: Disarm",
+				"sSpellID": "F4TweaksFramework.esm|1F60", "iRollMax": 70,
+				"sSpellIDSaved": "F4TweaksFramework.esm|858", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "71-85: Blind Frenzy - SaveAV: INT-3 - SavedSpell: Blindness",
+				"sSpellID": "F4TweaksFramework.esm|1F6A", "iRollMax": 85,
+				"sSpellIDSaved": "F4TweaksFramework.esm|850", "iSavingRollAV": 4, "iSavingRollMod": -3
+			},
+			{"comment": "86-95: Ionize - SaveAV: END-3 - SavedSpell: On Fire II",
+				"sSpellID": "F4TweaksFramework.esm|1012", "iRollMax": 95,
+				"sSpellIDSaved": "F4TweaksFramework.esm|1F60", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "96+: Vaporize Human - SaveAV: LCK - SavedSpell: On Fire Panic",
+				"sSpellID": "F4TweaksFramework.esm|2712", "iRollMax": 255,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C9", "iSavingRollAV": 6, "iSavingRollMod": 0
+			}
+		]},
+		
+		{"sName": "Fire", "iCritTypeID": 2, "effects": [
+			{"comment": "0-25: none", "iRollMax": 25},
+			{"comment": "26-45: On Fire - SaveAV: END-3 - SavedSpell: none",
+				"sSpellID": "F4TweaksFramework.esm|2714", "iRollMax": 45,
+				"sSpellIDSaved": "none", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "46-70: On Fire II - SaveAV: END-3 - SavedSpell: Disarm",
+				"sSpellID": "F4TweaksFramework.esm|1F60", "iRollMax": 70,
+				"sSpellIDSaved": "F4TweaksFramework.esm|858", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "71-85: On Fire II - SaveAV: END-3 - SavedSpell: Panic",
+				"sSpellID": "F4TweaksFramework.esm|1F60", "iRollMax": 85,
+				"sSpellIDSaved": "F4TweaksFramework.esm|869", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "86-95: On Fire Panic - SaveAV: INT-3 - SavedSpell: On Fire II",
+				"sSpellID": "F4TweaksFramework.esm|17C9", "iRollMax": 95,
+				"sSpellIDSaved": "F4TweaksFramework.esm|1F60", "iSavingRollAV": 4, "iSavingRollMod": -3
+			},
+			{"comment": "96+: Immolate (Human) - SaveAV: LCK - SavedSpell: On Fire Panic",
+				"sSpellID": "F4TweaksFramework.esm|3E37", "iRollMax": 255,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C9", "iSavingRollAV": 6, "iSavingRollMod": 0
+			}
+		]},
+		
+		{"sName": "Electrical", "iCritTypeID": 3, "effects": [
+			{"comment": "0-25: none", "iRollMax": 25},
+			{"comment": "26-45: Disarm - SaveAV: AGI-3 - SavedSpell: none",
+				"sSpellID": "F4TweaksFramework.esm|858", "iRollMax": 45,
+				"sSpellIDSaved": "none", "iSavingRollAV": 5, "iSavingRollMod": -3
+			},
+			{"comment": "46-70: Ionize - SaveAV: END-3 - SavedSpell: Disarm",
+				"sSpellID": "F4TweaksFramework.esm|1012", "iRollMax": 70,
+				"sSpellIDSaved": "F4TweaksFramework.esm|858", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "71-85: Knock Down - SaveAV: AGI-3 - SavedSpell: Stagger",
+				"sSpellID": "F4TweaksFramework.esm|17C6", "iRollMax": 85,
+				"sSpellIDSaved": "F4TweaksFramework.esm|865", "iSavingRollAV": 5, "iSavingRollMod": -3
+			},
+			{"comment": "86-95: Static Discharge - SaveAV: END-3 - SavedSpell: Knock Down",
+				"sSpellID": "F4TweaksFramework.esm|270E", "iRollMax": 95,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C6", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "96+: Electrocution - SaveAV: LCK - SavedSpell: Static Discharge",
+				"sSpellID": "F4TweaksFramework.esm|2728", "iRollMax": 255,
+				"sSpellIDSaved": "F4TweaksFramework.esm|270E", "iSavingRollAV": 6, "iSavingRollMod": 0
+			}
+		]},
+		
+		{"sName": "Cryo", "iCritTypeID": 4, "effects": [
+			{"comment": "0-25: none", "iRollMax": 25},
+			{"comment": "26-45: Slow - SaveAV: END-3 - SavedSpell: none",
+				"sSpellID": "F4TweaksFramework.esm|874", "iRollMax": 45,
+				"sSpellIDSaved": "none", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "46-70: Chill - SaveAV: END-3 - SavedSpell: Slow",
+				"sSpellID": "F4TweaksFramework.esm|17C3", "iRollMax": 70,
+				"sSpellIDSaved": "F4TweaksFramework.esm|874", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "71-85: Chill - SaveAV: END-3 - SavedSpell: Disarm",
+				"sSpellID": "F4TweaksFramework.esm|17C3", "iRollMax": 85,
+				"sSpellIDSaved": "F4TweaksFramework.esm|858", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "86-95: Brittle - SaveAV: END-3 - SavedSpell: Chill",
+				"sSpellID": "F4TweaksFramework.esm|1F62", "iRollMax": 95,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C3", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "96+: Freeze - SaveAV: LCK - SavedSpell: Brittle",
+				"sSpellID": "F4TweaksFramework.esm|2730", "iRollMax": 255,
+				"sSpellIDSaved": "F4TweaksFramework.esm|1F62", "iSavingRollAV": 6, "iSavingRollMod": 0
+			}
+		]},
+		
+		{"sName": "Poison", "iCritTypeID": 5, "effects": [
+			{"comment": "0-25: none", "iRollMax": 25},
+			{"comment": "26-45: Slow - SaveAV: END-3 - SavedSpell: none",
+				"sSpellID": "F4TweaksFramework.esm|874", "iRollMax": 45,
+				"sSpellIDSaved": "none", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "46-70: Poison DOT - SaveAV: END-3 - SavedSpell: Slow",
+				"sSpellID": "F4TweaksFramework.esm|879", "iRollMax": 70,
+				"sSpellIDSaved": "F4TweaksFramework.esm|874", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "71-85: Poison DOT - SaveAV: END-3 - SavedSpell: Weaken",
+				"sSpellID": "F4TweaksFramework.esm|879", "iRollMax": 85,
+				"sSpellIDSaved": "F4TweaksFramework.esm|1009", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "86-95: Knock Out - SaveAV: END-3 - SavedSpell: Knock Down",
+				"sSpellID": "F4TweaksFramework.esm|17C9", "iRollMax": 95,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C6", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "96+: Lethal Poison - SaveAV: LCK - SavedSpell: Knock Out",
+				"sSpellID": "F4TweaksFramework.esm|272A", "iRollMax": 255,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C9", "iSavingRollAV": 6, "iSavingRollMod": 0
+			}
+		]},
+		
+		{"sName": "Radiation", "iCritTypeID": 6, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Plasma", "iCritTypeID": 7, "effects": [
+			{"comment": "0-25: none", "iRollMax": 25},
+			{"comment": "26-45: Stagger - SaveAV: STR-3 - SavedSpell: none",
+				"sSpellID": "F4TweaksFramework.esm|865", "iRollMax": 45,
+				"sSpellIDSaved": "none", "iSavingRollAV": 0, "iSavingRollMod": -3
+			},
+			{"comment": "46-70: Damage Random Armor - SaveAV: AGI-3 - SavedSpell: Disarm",
+				"sSpellID": "F4TweaksFramework.esm|1F6E", "iRollMax": 70,
+				"sSpellIDSaved": "F4TweaksFramework.esm|858", "iSavingRollAV": 5, "iSavingRollMod": -3
+			},
+			{"comment": "71-85: On Fire - SaveAV: END-3 - SavedSpell: Weakness",
+				"sSpellID": "F4TweaksFramework.esm|2714", "iRollMax": 85,
+				"sSpellIDSaved": "F4TweaksFramework.esm|1009", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "86-95: Knock Out - SaveAV: END-3 - SavedSpell: Knock Down",
+				"sSpellID": "F4TweaksFramework.esm|17C9", "iRollMax": 95,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C6", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "96+: Melt (Human) - SaveAV: LCK - SavedSpell: Knock Out",
+				"sSpellID": "F4TweaksFramework.esm|2EE6", "iRollMax": 255,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C9", "iSavingRollAV": 6, "iSavingRollMod": 0
+			}
+		]},
+		
+		{"sName": "Explosion", "iCritTypeID": 8, "effects": [
+			{"comment": "0-25: none", "iRollMax": 25},
+			{"comment": "26-45: Stagger - SaveAV: STR-3 - SavedSpell: none",
+				"sSpellID": "F4TweaksFramework.esm|865", "iRollMax": 45,
+				"sSpellIDSaved": "none", "iSavingRollAV": 0, "iSavingRollMod": -3
+			},
+			{"comment": "46-70: Disarm - SaveAV: AGI-3 - SavedSpell: Stagger",
+				"sSpellID": "F4TweaksFramework.esm|858", "iRollMax": 70,
+				"sSpellIDSaved": "F4TweaksFramework.esm|865", "iSavingRollAV": 5, "iSavingRollMod": -3
+			},
+			{"comment": "71-85: Major Wound - SaveAV: END-3 - SavedSpell: Minor Wound",
+				"sSpellID": "F4TweaksFramework.esm|2739", "iRollMax": 85,
+				"sSpellIDSaved": "F4TweaksFramework.esm|870", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "86-95: Knock Out - SaveAV: END-3 - SavedSpell: Knock Down",
+				"sSpellID": "F4TweaksFramework.esm|17C9", "iRollMax": 95,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C6", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "96+: Explode Red - SaveAV: LCK - SavedSpell: Knock Out",
+				"sSpellID": "F4TweaksFramework.esm|271D", "iRollMax": 255,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C9", "iSavingRollAV": 6, "iSavingRollMod": 0
+			}
+		]},
+		
+		{"sName": "Alien", "iCritTypeID": 9, "effects": [
+			{"comment": "0-25: none", "iRollMax": 25},
+			{"comment": "26-45: On Fire - SaveAV: END-3 - SavedSpell: none",
+				"sSpellID": "F4TweaksFramework.esm|2714", "iRollMax": 45,
+				"sSpellIDSaved": "none", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "46-70: On Fire II - SaveAV: END-3 - SavedSpell: Disarm",
+				"sSpellID": "F4TweaksFramework.esm|1F60", "iRollMax": 70,
+				"sSpellIDSaved": "F4TweaksFramework.esm|858", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "71-85: Blind Frenzy - SaveAV: INT-3 - SavedSpell: Blindness",
+				"sSpellID": "F4TweaksFramework.esm|1F6A", "iRollMax": 85,
+				"sSpellIDSaved": "F4TweaksFramework.esm|850", "iSavingRollAV": 4, "iSavingRollMod": -3
+			},
+			{"comment": "86-95: Ionize - SaveAV: END-3 - SavedSpell: On Fire II",
+				"sSpellID": "F4TweaksFramework.esm|1012", "iRollMax": 95,
+				"sSpellIDSaved": "F4TweaksFramework.esm|1F60", "iSavingRollAV": 2, "iSavingRollMod": -3
+			},
+			{"comment": "96+: AlienDisintegrate Human - SaveAV: LCK - SavedSpell: On Fire Panic",
+				"sSpellID": "F4TweaksFramework.esm|272D", "iRollMax": 255,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C9", "iSavingRollAV": 6, "iSavingRollMod": 0
+			}
+		]}
+	]
+}

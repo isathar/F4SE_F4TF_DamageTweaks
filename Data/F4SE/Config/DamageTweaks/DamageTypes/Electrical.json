@@ -1,0 +1,14 @@
+{
+	"sName": "Electrical",
+	
+	"sDmgTypeID": "Fallout4.esm|60A80",
+	"iCritTableID": 3,
+	
+	"sDmgResistAV": "Fallout4.esm|2E6",
+	"sDmgThresholdAV": "F4TweaksFramework.esm|80E",
+	"fArmorDmgReductionExp": 0.3650,
+	"fArmorDmgFactor": 0.15,
+	
+	"sImmuneKW": "F4TweaksFramework.esm|831",
+	"sDmgOverrideKW": "F4TweaksFramework.esm|100A"
+}

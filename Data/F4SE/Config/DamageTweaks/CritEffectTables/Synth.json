@@ -1,0 +1,66 @@
+{
+	"sName": "ActorTypeSynth", "sRequiredKW": "Fallout4.esm|10C3CE",
+	
+	"critTables": [
+		{"sName": "Physical", "iCritTypeID": 0, "effects": [
+			{"comment": "0 -25 - none", "iRollMax": 25},
+			{"comment": "26-45 - Stagger - SaveAV: Strength - SavedSpell: none",
+				"sSpellID": "F4TweaksFramework.esm|865", "iRollMax": 45,
+				"sSpellIDSaved": "none", "sSavingRollAV": "Fallout4.esm|2C2", "iSavingRollMod": 5
+			},
+			{"comment": "46-70 - Knock Back - SaveAV: Strength - SavedSpell: Stagger",
+				"sSpellID": "F4TweaksFramework.esm|17C4", "iRollMax": 70,
+				"sSpellIDSaved": "F4TweaksFramework.esm|865", "sSavingRollAV": "Fallout4.esm|2C2", "iSavingRollMod": 5
+			},
+			{"comment": "71-85 - Knock Down - SaveAV: Strength - SavedSpell: Knock Back",
+				"sSpellID": "F4TweaksFramework.esm|17C6", "iRollMax": 85,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C4", "sSavingRollAV": "Fallout4.esm|2C2", "iSavingRollMod": 2
+			},
+			{"comment": "86-95 - Knock Out - SaveAV: Agility - SavedSpell: Knock Down",
+				"sSpellID": "F4TweaksFramework.esm|17C9", "iRollMax": 95,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C6", "sSavingRollAV": "Fallout4.esm|2C7", "iSavingRollMod": 2
+			},
+			{"comment": "96+ - Instant Kill (Forceful Blow) - SaveAV: Luck - SavedSpell: Knock Out",
+				"sSpellID": "F4TweaksFramework.esm|1F6B", "iRollMax": 255,
+				"sSpellIDSaved": "F4TweaksFramework.esm|17C9", "sSavingRollAV": "Fallout4.esm|2C8", "iSavingRollMod": 3
+			}
+		]},
+		
+		{"sName": "Energy", "iCritTypeID": 1, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Fire", "iCritTypeID": 2, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Electrical", "iCritTypeID": 3, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Cryo", "comment": ["Immune"], "iCritTypeID": 4, "effects": [
+			{"comment": "0-255 - none", "iRollMax": 255}
+		]},
+		
+		{"sName": "Poison", "comment": ["Immune"], "iCritTypeID": 5, "effects": [
+			{"comment": "0-255 - none", "iRollMax": 255}
+		]},
+		
+		{"sName": "Radiation", "comment": ["Immune"], "iCritTypeID": 6, "effects": [
+			{"comment": "0-255 - none", "iRollMax": 255}
+		]},
+		
+		{"sName": "Plasma", "iCritTypeID": 7, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Explosion", "iCritTypeID": 8, "effects": [
+			{"comment": "0-25 - none", "iRollMax": 25}
+		]},
+		
+		{"sName": "Alien", "iCritTypeID": 9, "effects": [
+			{"comment": "0-25: none", "iRollMax": 25}
+		]}
+		
+	]
+}

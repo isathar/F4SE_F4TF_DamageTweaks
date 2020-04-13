@@ -1,0 +1,13 @@
+{
+	"sName": "Radiation",
+	
+	"sDmgTypeID": "Fallout4.esm|60A85",
+	"iCritTableID": 6,
+	
+	"sDmgResistAV": "Fallout4.esm|2EA",
+	"fArmorDmgReductionExp": 0.3650,
+	"fArmorDmgFactor": 0.15,
+	
+	"sImmuneKW": "F4TweaksFramework.esm|83B",
+	"sDmgOverrideKW": "F4TweaksFramework.esm|2EF5"
+}

@@ -1,0 +1,14 @@
+{
+	"sName": "Cryo",
+	
+	"sDmgTypeID": "Fallout4.esm|60A83",
+	"iCritTableID": 4,
+	
+	"sDmgResistAV": "Fallout4.esm|2E7",
+	"sDmgThresholdAV": "F4TweaksFramework.esm|80D",
+	"fArmorDmgReductionExp": 0.3650,
+	"fArmorDmgFactor": 0.15,
+	
+	"sImmuneKW": "F4TweaksFramework.esm|830",
+	"sDmgOverrideKW": "F4TweaksFramework.esm|1019"
+}

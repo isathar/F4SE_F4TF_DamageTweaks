@@ -1,0 +1,15 @@
+{
+	"sName": "Explosion",
+	
+	"sDmgTypeID": "F4TweaksFramework.esm|2713",
+	"iCritTableID": 8,
+	
+	"sDmgResistAV": "F4TweaksFramework.esm|804",
+	"sDmgThresholdAV": "F4TweaksFramework.esm|810",
+	"bUseArmorPen": true,
+	"fArmorDmgReductionExp": 0.3650,
+	"fArmorDmgFactor": 0.15,
+	
+	"sImmuneKW": "F4TweaksFramework.esm|833",
+	"sDmgOverrideKW": "F4TweaksFramework.esm|2EDC"
+}

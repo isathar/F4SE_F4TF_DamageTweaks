@@ -1,0 +1,187 @@
+{
+	"minMcmVersion": 4,
+	"modName": "DamageTweaks",
+	"displayName": "DamageTweaks",
+	"content": [
+		{
+			"type": "spacer",
+			"numLines": 1
+		},
+		
+		{
+			"text": "General",
+			"type": "section"
+		},
+		{
+			"id": "bAllowFullMitigation:DamageTweaks",
+			"text": "Allow Full Mitigation",
+			"type": "switcher",
+			"help": "If false, forces a minimum damage amount of 1 after resistance calculations.",
+			"valueOptions": {
+				"sourceType": "ModSettingBool"
+			}
+		},
+		{
+			"type": "spacer",
+			"numLines": 1
+		},
+		
+		{
+			"text": "Damage Resistance",
+			"type": "section"
+		},
+		{
+			"id": "iDRType:DamageTweaks",
+			"text": "Mode",
+			"type": "dropdown",
+			"help": "Toggle DR and select its calculation method.",
+			"valueOptions": {
+				"options": ["Off", "Default fixed", "Percentage"],
+				"sourceType": "ModSettingInt"
+			}
+		},
+		{
+			"id": "fMaxPercentDR:DamageTweaks",
+			"text": "Max. DR Percentage",
+			"type": "slider",
+			"help": "Maximum percentage of damage mitigated by DR. Default: 0.99, Classic: 0.9, F3+NV: 0.85",
+			"valueOptions": {
+				"min": 0.00,
+				"max": 1.00,
+				"step": 0.01,
+				"sourceType": "ModSettingFloat"
+			}
+		},
+		{
+			"type": "spacer",
+			"numLines": 1
+		},
+		
+		{
+			"text": "Damage Threshold",
+			"type": "section"
+		},
+		{
+			"id": "iDTType:DamageTweaks",
+			"text": "Mode",
+			"type": "dropdown",
+			"help": "Toggle DT and select its placement in the resistance formula.",
+			"valueOptions": {
+				"options": ["Off", "DT Before DR (Classic)", "DT After DR (FNV)"],
+				"sourceType": "ModSettingInt"
+			}
+		},
+		{
+			"id": "fDTMinDmgPercent:DamageTweaks",
+			"text": "Min. Dmg Percentage",
+			"type": "slider",
+			"help": "Minimum percentage of damage to let through DT. Classic: 0.0, FNV: 0.2",
+			"valueOptions": {
+				"min": 0.00,
+				"max": 1.00,
+				"step": 0.05,
+				"sourceType": "ModSettingFloat"
+			}
+		},
+		{
+			"type": "spacer",
+			"numLines": 1
+		},
+		
+		{
+			"text": "Critical Hits",
+			"type": "section"
+		},
+		{
+			"id": "bEnableCriticalHits:DamageTweaks",
+			"text": "Enable",
+			"type": "switcher",
+			"valueOptions": {
+				"sourceType": "ModSettingBool"
+			}
+		},
+		{
+			"id": "bCritChanceUsesCND:DamageTweaks",
+			"text": "Chance Uses CND",
+			"help": "Enables critical chance using weapon CND in its calculation",
+			"type": "switcher",
+			"valueOptions": {
+				"sourceType": "ModSettingBool"
+			}
+		},
+		{
+			"id": "bCritDmgMultRoll:DamageTweaks",
+			"text": "Crit Damage Based on Roll",
+			"help": "Apply an additional crit damage multiplier based on the crit effect roll (>66: 2.0x, >33: 1.5x)",
+			"type": "switcher",
+			"valueOptions": {
+				"sourceType": "ModSettingBool"
+			}
+		},
+		
+		{
+			"type": "spacer",
+			"numLines": 1
+		},
+		{
+			"id": "bCritsUseEffectTables:DamageTweaks",
+			"text": "Critical Effect Tables",
+			"help": "Enables critical effect tables (different crit effects depending on target race and source weapon)",
+			"type": "switcher",
+			"valueOptions": {
+				"sourceType": "ModSettingBool"
+			}
+		},
+		{
+			"id": "bCritsUseSavingRoll:DamageTweaks",
+			"text": "Effect Saving Rolls",
+			"help": "Enables saving rolls for critical effects - Random chance to avoid or lessen a crit effect based on attributes",
+			"type": "switcher",
+			"valueOptions": {
+				"sourceType": "ModSettingBool"
+			}
+		},
+		
+		{
+			"type": "spacer",
+			"numLines": 1
+		},
+		
+		{
+			"text": "Armor Condition",
+			"type": "section"
+		},
+		{
+			"id": "bEnableArmorCND:DamageTweaks",
+			"text": "Enable",
+			"type": "switcher",
+			"valueOptions": {
+				"sourceType": "ModSettingBool"
+			}
+		},
+		{
+			"id": "iArmorDmgChance:DamageTweaks",
+			"text": "Armor Damage Chance",
+			"type": "slider",
+			"help": "Chance of any armor being damaged by an attack.",
+			"valueOptions": {
+				"min": 1,
+				"max": 100,
+				"step": 1,
+				"sourceType": "ModSettingInt"
+			}
+		},
+		{
+			"id": "fArmorDmgMult:DamageTweaks",
+			"text": "Armor Damage Multiplier",
+			"type": "slider",
+			"help": "Multiplier applied to incoming armor damage.",
+			"valueOptions": {
+				"min": 0.01,
+				"max": 1.00,
+				"step": 0.01,
+				"sourceType": "ModSettingFloat"
+			}
+		}
+	]
+}
