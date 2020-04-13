@@ -1,11 +1,11 @@
-#F4TF - DamageTweaks
+F4TF - DamageTweaks
 
 Overrides to Fallout 4's damage calculations. Part of the Fallout 4 Tweaks Framework
 
 Still needs work. This is just a quick backup
 
   
-##Credits/License:
+Credits/License:
 
 - Created with *Microsoft Visual Studio Community 2017*.
 - Uses *JSON for Modern C++* by Niels Lohmann and contributors. (https://github.com/nlohmann/json)
